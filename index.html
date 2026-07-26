@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Truth or Dare</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div id="app">Loading...</div>
+
+  <!-- Hidden file input used by the Load Game button -->
+  <input type="file" id="load-file-input" accept="application/json" style="display:none">
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
